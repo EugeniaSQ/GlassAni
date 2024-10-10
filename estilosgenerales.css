@@ -1,0 +1,426 @@
+* {
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    color: #fffffff7;
+    background-image: url(imgs/BackGDream-dack.jpg);
+    background-position: center top;
+    background-attachment:fixed;
+    background-size: cover;
+    font-family: "Varela Round", sans-serif;
+    font-weight: 400;
+    font-style: normal; 
+    font-weight: bold;
+}
+
+.varela-round-regular {
+    font-family: "Varela Round", sans-serif;
+    font-weight: 400;
+    font-style: normal;}
+
+.responsive {transition: 1s;}
+
+@media screen and (min-width: 481px) { /*COMPUTADORA*/
+
+.content {
+    margin-left: 200px;
+    margin-right: 20px;
+    padding: 10px;
+    flex: 1;
+    text-align: justify;
+}
+
+.content b {     
+    text-decoration: underline #25b2dd;
+    justify-content: right;
+}
+
+.content p {
+    padding-bottom: 0px;
+    justify-content: right;
+    font-size: 20px; /* Ajusta el tamaño del texto según sea necesario */
+    position: top;
+}
+
+.MMOPQ img {
+    float: right;
+    margin-left: 15px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    max-width: 230px;
+    max-height: fit-content;}
+
+.MMOPQ p {
+    margin-left: 20px;
+    margin-right: 10px;}
+
+.WASD img {
+    float: left;
+    margin-right: 15px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    max-width: 240px;
+    max-height: fit-content;}
+
+.WASD p {
+    margin-left: 10px;
+    margin-right: 20px;}
+
+.maperq {
+    display: block;
+    margin-left: 210px;
+    margin-top: 35px;
+}
+
+.map4 {
+    display: none;}
+
+#caja1 {
+    margin: 0 auto;
+    color:#ffffffe1;
+    background-color: #269dc1c5;
+    text-align: center;
+    background-position: top center;
+    padding: 10px;
+    margin-left: 510px;  /*podría insertar la publicidad acá*/
+    margin-bottom: 30px;
+    width: 350px;
+    height: auto;}
+
+#caja2 {
+    margin: 120px auto;
+    color:#ffffffe1;
+    background-color: #aa38c4;
+    text-align: center;
+    background-position: top center;
+    padding: 10px;
+    margin-left: 440px;
+    width: 550px;
+    height: auto;}
+
+.formu p {
+    font-size: 13px;
+}
+
+.icono {
+    display: none;
+    color:#ffb300;
+    text-decoration: none;
+    size:100%;
+    margin-left: 13px;
+    padding-top: 100px;
+    position: top;
+    position: right;}
+
+.logonormal {
+    margin-left: 20px;
+    margin-top: 20px;}
+
+header {
+    width: 190px;
+    height: 850px;
+    position: fixed;
+    background-color: #702698cf;
+    padding: 20px;
+    box-shadow: 4px 4px 10px #8e13b769;
+    top: 0px;
+    left: 0px;
+    line-height: 28px;
+}
+
+.menudebarra a {
+    color:#ffffff;}
+
+.menudebarra li {
+    display: block;
+    text-decoration: none;
+    padding: 10px 0;
+    border-bottom: 2px solid #ffb300;}
+
+.menudebarra li:hover {
+    background-color: #8732a5;}
+
+/*todo lo del slider*/    
+.container {
+    position: relative;}
+
+.container .wrapper {
+        width: 400px;
+        height: 250px;
+        box-shadow: 4px 4px 0px #310f42d1;
+        margin: 35px auto;
+        overflow: hidden;
+    }
+.container .wrapper-holder {
+        display: grid;
+        grid-template-columns: repeat(5, 100%);
+        height: 500px;
+        width: 400px;
+        animation: slider 20s ease-in-out infinite alternate;
+    }    
+.container #slider-img-1 {
+        background-image: url(imgs/103928_Insta.jpg);
+        background-repeat: no-repeat;
+        background-position: top center;
+        background-size: 100%;
+    }
+.container #slider-img-2 {
+        background-image: url(imgs/204244_Insta.jpg);
+        background-repeat: no-repeat;
+        background-position: top center;
+        background-size: 100%;
+    }
+.container #slider-img-3 {
+        background-image: url(imgs/304618_Insta.jpg);
+        background-repeat: no-repeat;
+        background-position: top center;
+        background-size: 100%;
+    }
+
+.container #slider-img-4 {
+    background-image: url(imgs/404710_Insta.jpg);
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: 100%;
+}
+    
+.container #slider-img-5 {
+    background-image: url(imgs/504749_Insta.jpg);
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: 100%;
+}
+
+.container .button-holder .button {
+        background-color: rgba(202, 202, 202, 0.817);
+        width: 10px;
+        height: 10px;
+        border-radius: 10px;
+        display: inline-block;
+        margin: .2rem;
+    }
+.container .button-holder {
+        position: absolute;
+        left: 45%;
+        bottom: 5%;
+    }
+.button:hover{
+        box-shadow: 0px 0px 7px 4px #269dc1c5;} 
+
+@keyframes slider{
+        0%{transform: translateX(0%);}
+        10%{transform: translateX(-100%);}
+        20%{transform: translateX(-100%);}
+        30%{transform: translateX(-200%);}
+        40%{transform: translateX(-200%);}
+        50%{transform: translateX(-200%);}
+        60%{transform: translateX(-300%);}
+        70%{transform: translateX(-300%);}
+        80%{transform: translateX(-300%);}
+        90%{transform: translateX(0%);}
+        100%{transform: translateX(0%);}
+    }
+
+.fa-fa-bars {
+    display: none;
+}
+
+} /*COMPUTADORA
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+
+@media screen and (max-width: 480px) { /*CELULAR*/ 
+
+    .content {
+        margin-left: 10px;
+        margin-right: 10px;
+        padding: 5px;
+        flex: 1;
+        text-align: justify; }
+
+    .content b { 
+        text-decoration: underline #16dcff; }
+    
+    .content p {
+        padding-bottom: 0px;
+        justify-content: right;
+        font-size: 20px;
+        position: top; }
+
+    #caja1 {
+        color:#ffffffe1;
+        background-color: #269dc1c5;
+        text-align: center;
+        padding: 10px;
+        margin-bottom: 30px;
+        font-size: 10px;
+        width: auto; }
+
+    .MMOPQ img {
+        float: right;
+        margin-left: 15px;
+        margin-top: 5px;
+        margin-bottom: 5px;
+        max-width: 230px;
+        text-align: left;
+        max-height: fit-content;}
+
+
+    .WASD img {
+        float: left;
+        margin-right: 15px;
+        margin-top: 5px;
+        margin-bottom: 5px;
+        max-width: 240px;
+        text-align: left;
+        max-height: fit-content;}
+
+        .maperq {
+            display: none;
+            margin-left: 210px;
+            margin-top: 35px;
+        }
+        
+    .map4 {
+        display: block;
+        top: 10px;
+        margin-left: 80px; }
+        
+
+.icono {
+        display: block;
+        float: left;
+        position: top;
+        color:#001aff;
+        margin-left: 12px;
+        margin-top: 10px;
+        position: top;
+        }
+
+header {
+    display: none;
+    width: 190px;
+    height: 950px;
+    background-color: #3b124ef8;
+    padding: 20px;
+    box-shadow: 4px 4px 10px #8912b162;
+    top: 0px;
+    left: 0px;
+    line-height: 28px;
+}
+
+.menudebarra a {
+    color:#ffb300;}
+
+.menudebarra li {
+    display: block;
+    text-decoration: none;
+    padding: 10px 0;
+    border-bottom: 2px solid #9808917f;}
+
+.menudebarra li:hover {
+    background-color: #310f42;}
+
+.fas-fa-bars {
+    display: block;
+}
+
+/*todo lo del slider*/    
+.container {
+    position: relative;}
+
+.container .wrapper {
+        width: 400px;
+        height: 250px;
+        box-shadow: 4px 4px 0px #310f42d1;
+        margin: 35px auto;
+        overflow: hidden;
+    }
+.container .wrapper-holder {
+        display: grid;
+        grid-template-columns: repeat(5, 100%);
+        height: 500px;
+        width: 400px;
+        animation: slider 20s ease-in-out infinite alternate;
+    }    
+.container #slider-img-1 {
+        background-image: url(imgs/103928_Insta.jpg);
+        background-repeat: no-repeat;
+        background-position: top center;
+        background-size: 100%;
+    }
+.container #slider-img-2 {
+        background-image: url(imgs/204244_Insta.jpg);
+        background-repeat: no-repeat;
+        background-position: top center;
+        background-size: 100%;
+    }
+.container #slider-img-3 {
+        background-image: url(imgs/304618_Insta.jpg);
+        background-repeat: no-repeat;
+        background-position: top center;
+        background-size: 100%;
+    }
+
+.container #slider-img-4 {
+    background-image: url(imgs/404710_Insta.jpg);
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: 100%;
+}
+    
+.container #slider-img-5 {
+    background-image: url(imgs/504749_Insta.jpg);
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: 100%;
+}
+
+.container .button-holder .button {
+        background-color: rgba(202, 202, 202, 0.817);
+        width: 10px;
+        height: 10px;
+        border-radius: 10px;
+        display: inline-block;
+        margin: .2rem;
+    }
+
+.container .button-holder {
+        position: absolute;
+        left: 45%;
+        bottom: 5%;
+    }
+
+.button:hover{
+        box-shadow: 0px 0px 7px 4px rgba(211, 163, 40, 0.856);    }
+
+@keyframes slider{
+        0%{transform: translateX(0%);}
+        10%{transform: translateX(-100%);}
+        20%{transform: translateX(-100%);}
+        30%{transform: translateX(-200%);}
+        40%{transform: translateX(-200%);}
+        50%{transform: translateX(-200%);}
+        60%{transform: translateX(-300%);}
+        70%{transform: translateX(-300%);}
+        80%{transform: translateX(-300%);}
+        90%{transform: translateX(0%);}
+        100%{transform: translateX(0%);}
+    }
+    #caja2 {
+        color:#ffffffe1;
+        background-color: #aa38c4;
+        text-align: center;
+        background-position: top center;
+        
+        margin-top: 40px;
+        max-width: 330px;
+        height: auto;}
+
+.content0 {
+    padding: 10px;
+    margin: 2px auto;}
+
+} /*CELULAR cierre*/
