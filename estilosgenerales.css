@@ -20,7 +20,7 @@ body {
     font-weight: 400;
     font-style: normal;}
 
-.responsive {transition: 1s;}
+.responsive {transition: 1s; display: block;}
 
 @media screen and (min-width: 481px) { /*COMPUTADORA*/
 
@@ -29,20 +29,17 @@ body {
     margin-right: 20px;
     padding: 10px;
     flex: 1;
-    text-align: justify;
-}
+    text-align: justify;}
 
 .content b {     
     text-decoration: underline #25b2dd;
-    justify-content: right;
-}
+    justify-content: right;}
 
 .content p {
     padding-bottom: 0px;
     justify-content: right;
     font-size: 20px; /* Ajusta el tamaño del texto según sea necesario */
-    position: top;
-}
+    position: top;}
 
 .MMOPQ img {
     float: right;
@@ -71,8 +68,7 @@ body {
 .maperq {
     display: block;
     margin-left: 210px;
-    margin-top: 35px;
-}
+    margin-top: 35px;}
 
 .map4 {
     display: none;}
@@ -120,15 +116,14 @@ body {
 
 header {
     width: 190px;
-    height: 850px;
+    height: 100%;
     position: fixed;
     background-color: #702698cf;
     padding: 20px;
     box-shadow: 4px 4px 10px #8e13b769;
     top: 0px;
     left: 0px;
-    line-height: 28px;
-}
+    line-height: 28px;}
 
 .menudebarra a {
     color:#ffffff;}
@@ -224,8 +219,7 @@ header {
     }
 
 .fa-fa-bars {
-    display: none;
-}
+    display: none;}
 
 } /*COMPUTADORA
 
@@ -233,30 +227,30 @@ header {
 
 @media screen and (max-width: 480px) { /*CELULAR*/ 
 
-    .content {
-        margin-left: 10px;
-        margin-right: 10px;
-        padding: 5px;
-        flex: 1;
-        text-align: justify; }
+.content {
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 5px;
+    flex: 1;
+    text-align: justify;}
 
-    .content b { 
-        text-decoration: underline #16dcff; }
+.content b { 
+    text-decoration: underline #16dcff;}
     
-    .content p {
-        padding-bottom: 0px;
-        justify-content: right;
-        font-size: 20px;
-        position: top; }
+.content p {
+    padding-bottom: 0px;
+    justify-content: right;
+    font-size: 20px;
+    position: top; }
 
-    #caja1 {
-        color:#ffffffe1;
-        background-color: #269dc1c5;
-        text-align: center;
-        padding: 10px;
-        margin-bottom: 30px;
-        font-size: 10px;
-        width: auto; }
+#caja1 {
+    color:#ffffffe1;
+    background-color: #269dc1c5;
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 30px;
+    font-size: 10px;
+    width: auto; }
 
     .MMOPQ img {
         float: right;
@@ -267,61 +261,58 @@ header {
         text-align: left;
         max-height: fit-content;}
 
+.WASD img {
+    float: left;
+    margin-right: 15px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    max-width: 240px;
+    text-align: left;
+    max-height: fit-content;}
 
-    .WASD img {
-        float: left;
-        margin-right: 15px;
-        margin-top: 5px;
-        margin-bottom: 5px;
-        max-width: 240px;
-        text-align: left;
-        max-height: fit-content;}
-
-        .maperq {
-            display: none;
-            margin-left: 210px;
-            margin-top: 35px;
-        }
+.maperq {
+    display: none;
+    margin-left: 210px;
+    margin-top: 35px;}
         
-    .map4 {
-        display: block;
-        top: 10px;
-        margin-left: 80px; }
+.map4 {
+    display: block;
+    top: 10px;
+    margin-left: 80px; }
         
-
 .icono {
-        display: block;
-        float: left;
-        position: top;
-        color:#001aff;
-        margin-left: 12px;
-        margin-top: 10px;
-        position: top;
-        }
+    display: block;
+    position:fixed ;
+    color:#16c8df;
+    text-decoration: none;
+    size:100%;
+    margin-left: 13px;
+    position: top;
+    position: right;}
 
 header {
     display: none;
     width: 190px;
-    height: 950px;
-    background-color: #3b124ef8;
+    height: 550px;
+    position:fixed;
+    background-color: #702698cf;
     padding: 20px;
-    box-shadow: 4px 4px 10px #8912b162;
-    top: 0px;
-    left: 0px;
-    line-height: 28px;
-}
+    box-shadow: 4px 4px 10px #8e13b769;
+    top: 30px;
+    left: 20px;
+    line-height: 28px;}
 
 .menudebarra a {
-    color:#ffb300;}
+    color:#ffffff;}
 
 .menudebarra li {
     display: block;
     text-decoration: none;
     padding: 10px 0;
-    border-bottom: 2px solid #9808917f;}
+    border-bottom: 2px solid #ffb300;}
 
 .menudebarra li:hover {
-    background-color: #310f42;}
+    background-color: #8732a5;}
 
 .fas-fa-bars {
     display: block;
@@ -390,8 +381,7 @@ header {
 .container .button-holder {
         position: absolute;
         left: 45%;
-        bottom: 5%;
-    }
+        bottom: 5%;}
 
 .button:hover{
         box-shadow: 0px 0px 7px 4px rgba(211, 163, 40, 0.856);    }
