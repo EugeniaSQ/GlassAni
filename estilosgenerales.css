@@ -74,16 +74,14 @@ body {
     display: none;}
 
 #caja1 {
-    margin: 0 auto;
     color:#ffffffe1;
     background-color: #269dc1c5;
-    text-align: center;
-    background-position: top center;
-    padding: 10px;
-    margin-left: 510px;  /*podría insertar la publicidad acá*/
-    margin-bottom: 30px;
-    width: 350px;
-    height: auto;}
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 200px;
+    justify-content: space-evenly;
+    text-align: center;}
+    
 
 #caja2 {
     margin: 120px auto;
@@ -220,6 +218,51 @@ header {
 
 .fa-fa-bars {
     display: none;}
+
+.foot {
+  margin-left: 200px;
+  margin-top: 20px;
+  background-color: #9c62ed;
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+
+.galeFirst {
+    margin-left: 200px;
+    margin-right: 30px;
+    display: inline-block;
+    border-radius: 8px;
+    width: 220px;
+}
+
+.galeria img {
+    margin-left: 20px;
+    margin-right: 10px;
+    display: inline-block;
+    border-radius: 8px;
+    width: 220px;
+}
+
+.anuncio {
+    width: 728px;
+    height: 90px;
+    overflow: hidden;
+    background: #000;
+  }
+  .contendoraanuncio {
+    display: flex;
+    padding: 15px;
+    margin-left: 200px;
+    justify-content: space-evenly;
+  }
+  .esco {
+    display: none;
+    text-decoration: none;
+  }
+  .logo {
+    overflow: hidden;
+  }
 
 } /*COMPUTADORA
 
@@ -412,5 +455,44 @@ header {
 .content0 {
     padding: 10px;
     margin: 2px auto;}
+
+.foot {
+  background-color: #9c62ed;
+  margin-top: 20px;
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+
+.galeFirst img {
+    margin:auto;
+    display: block;
+    border-radius: 8px;
+    width: 200px;
+    margin-bottom: 25px;
+}
+
+.galeria img {
+    margin:auto;
+    display: block;
+    border-radius: 8px;
+    width: 200px;
+    margin-bottom: 25px;
+}
+
+.anuncio {
+  width: 300px;
+  height: 600px;
+  background: #000;}
+
+.contendoraanuncio {
+  display: flex;
+  justify-content: space-evenly;}
+
+.esco {
+  display: block;
+  text-decoration: none;
+  color: black;}
+
 
 } /*CELULAR cierre*/
